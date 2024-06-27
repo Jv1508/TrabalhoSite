@@ -1,0 +1,181 @@
+/*Código para declarar a fonte que eu baixei e escolhi pra usar */
+@font-face {
+    font-family: 'fontedaora';
+    src: url(fontes/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+/* Salvando as cores pra facilitar no uso delas (usei o site coolors pra 5 cores que combinam)*/
+:root{
+
+--cor1:#5465FF;
+--cor2:#788BFF;
+--cor3:#9BB1FF;
+--cor4:#BFD7FF;
+--cor5:#E2FDFF;
+
+}
+
+/* comando pra ajeitar os conteúdos d padding e margins */
+*{
+box-sizing: border-box;
+}
+
+/*  cor do fundo do corpo do texto */
+body{
+
+background-color: var(--cor5);
+
+}
+
+/* Estilização do cabeçalho do texto */
+header{
+position:absolute;
+top: 0px;
+left: 0px;
+right: 0px;
+height: 150px;
+background-color: var(--cor4);
+border-bottom: solid 2px var(--cor3);
+
+}
+
+/* Estilização da frase do cabeçalho */
+.fraseprincipal{
+position: absolute;
+font-family: 'fontedaora';
+color: white;
+top:40px;
+left: 600px;
+text-shadow: 2px 2px black;
+
+
+
+
+}
+
+/* Estilização dos botões */
+.sobremim{
+position: absolute;
+top: 230px;
+left: 20%;
+background-color: var(--cor1);
+width: 200px;
+height: 70px;
+border: solid 2px white;
+border-radius: 25px;
+color: white;
+font-family: 'fontedaora';
+font-size: 30px;
+padding: 10px 10px 10px 10px;
+box-shadow: 0px 0px 5px black;
+text-shadow: 1px 1px black;
+
+
+}
+
+
+.formacao{
+
+position:absolute;
+top: 230px;
+left: 35%;
+background-color: var(--cor2);
+width: 200px;
+height: 70px;
+border: solid 2px white;
+border-radius: 25px;
+color: white;
+font-family: 'fontedaora';
+font-size: 30px;
+padding: 10px 10px 10px 10px;
+box-shadow: 0px 0px 5px black;
+text-shadow: 1px 1px black;
+
+
+}
+
+
+.portfolio{
+
+position: absolute;
+top: 230px;
+left: 50%;
+background-color: var(--cor3);
+width: 200px;
+height: 70px;
+border: solid 2px white;
+border-radius: 25px;
+color: white;
+font-family: 'fontedaora';
+font-size: 30px;
+padding: 10px 10px 10px 10px;
+box-shadow: 0px 0px 5px black;
+text-shadow: 1px 1px black;
+
+
+}
+
+
+.contato{
+
+position: absolute;
+top: 230px;
+left: 66%;
+background-color: var(--cor4);
+width: 200px;
+height: 70px;
+border: solid 2px white;
+border-radius: 25px;
+color: white;
+font-family: 'fontedaora';
+font-size: 30px;
+padding: 10px 10px 10px 10px;
+box-shadow: 0px 0px 5px black;
+text-shadow: 1px 1px black;
+
+
+}
+
+/* Sombra na hora que colocar o cursor no botão pra dar uma destacada */
+.sobremim:hover{box-shadow: 5px 5px 10px black;}
+.portfolio:hover{box-shadow: 5px 5px 10px black;}
+.formacao:hover{box-shadow: 5px 5px 10px black;}
+.contato:hover{box-shadow: 5px 5px 10px black;}
+
+
+/* Conteiner para estilizar a sessão de formação, junto dos títutlos e letras */
+.secaoformacao{
+position: absolute;
+background-color: white;
+top: 400px;
+left: 550px;
+width: 700px;
+height: 1000px;
+border: solid 10px var(--cor2);
+border-radius: 25px;
+box-shadow: 0px 0px 5px black;
+
+
+}
+
+.tituloformacao{
+
+font-family: 'fontedaora';
+font-size: 50px;
+text-align: center;
+margin: 30px;
+padding: 30px;
+border-bottom: solid 2px var(--cor4);
+text-shadow: 1px 1px var(--cor3);
+
+
+}
+
+.textoformacao{
+font-family: 'fontedaora';
+font-size: 20px;
+text-align: left;
+margin: 30px;
+
+
+}
